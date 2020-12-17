@@ -15,10 +15,20 @@ These systems help to give a score for Traiging and tell us how fast to act. But
 
 Pre-Processing
 
-The NHAMCS i.e. the National Hospital Ambulatory Medical Care Survey -ED data from years 2007- 2017 is used. This data is coded into numbers and a reference guide is attached corresponding to each year. Data can be accessed from the website https://www.cdc.gov/nchs/ahcd/datasets_documentation_related.htm. The data extraction code for each year's data can be found in the CodeFiles folder. AAI.csv contains the combined csv extracted for all years.
+The NHAMCS i.e. the National Hospital Ambulatory Medical Care Survey -ED data from years 2007- 2017 is used. This data is coded into numbers and a reference guide is attached corresponding to each year. Data can be accessed from the website https://www.cdc.gov/nchs/ahcd/datasets_documentation_related.htm. The data extraction code for each year's data can be found in the CodeFiles folder. Emergency_Data.csv contains the combined csv extracted for all years.
 
 
 # Model Development
 
 model.py file contains the code for a LightGBM model used the predict the emergency outcomes.
+
+# Results
+
+We obtain the AUC-ROC score of 0.7611 using the Light GBM model. The multi-class one vs. all AUCROC of very critical - Class 0 is 0.95, Critical - Class 1 is
+0.72, Hospitalized - Class 2 is 0.67, and Discharge - Class 3 is 0.70.
+
+<p>
+  <img src="https://github.com/pks-97/SASCW-ROS/blob/main/catkin_scw/video.gif.gif" width="400" height="400"/>
+</p>
+
 
