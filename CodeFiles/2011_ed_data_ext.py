@@ -38,7 +38,7 @@ for i in range(0,len(data)):
          number = int(data[i][j:j+5])
          if df[(df['Code']==number)].shape[0] == 0:
             print(number)
-            print("Blannnk")
+            print("Blank")
             b[k].append("Blank")
          else:
             print(number)
