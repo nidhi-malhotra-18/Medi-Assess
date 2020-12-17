@@ -28,7 +28,7 @@ We obtain the AUC-ROC score of 0.7611 using the Light GBM model. The multi-class
 0.72, Hospitalized - Class 2 is 0.67, and Discharge - Class 3 is 0.70.
 
 <p>
-  <img src="https://github.com/pks-97/SASCW-ROS/blob/main/catkin_scw/video.gif.gif" width="400" height="400"/>
+  <img src="https://github.com/nidhi-malhotra-18/Medi-Assess/blob/main/LightGBM.png" width="400" height="400"/>
 </p>
 
 
