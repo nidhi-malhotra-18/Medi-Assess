@@ -20,7 +20,10 @@ The NHAMCS i.e. the National Hospital Ambulatory Medical Care Survey -ED data fr
 
 # Model Development
 
+
+<img src="https://github.com/nidhi-malhotra-18/Medi-Assess/blob/main/model.png" width="400" height="400"/>
 model.py file contains the code for a LightGBM model used the predict the emergency outcomes.
+
 
 # Results
 
