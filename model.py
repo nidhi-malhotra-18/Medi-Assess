@@ -4,7 +4,7 @@ import lightgbm
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelBinarizer
 
-data=pd.read_csv('AAI_Data.csv')
+data=pd.read_csv('Emergency_Data.csv')
 data=data.drop('Unnamed: 0',1)
 
 X=data.drop("Result",1)
