@@ -1,0 +1,820 @@
+Code,Reason
+-9,Blank
+10050,Chills
+10100,Fever
+10120,Other symptoms of body temperature
+10121,Feeling cold
+10122,Feeling hot
+10123,Feeling hot and cold
+10150,"Tiredness, exhaustion"
+10200,General weakness
+10250,General ill feeling
+10300,Fainting (syncope)
+10350,Symptoms of fluid abnormalities
+10351,Edema
+10352,"Excessive sweating, perspiration"
+10353,Excessive thirst
+10400,Weight gain
+10450,Weight loss
+10451,Recent weight loss
+10452,Underweight
+10460,"Symptoms of face, not elsewhere class"
+10500,Chest pain and related symptoms
+10501,Chest pain
+10502,"Chest discomfort, pressure, tightness"
+10503,Burning sensation in the chest
+10550,"Pain, specified site not referable to"
+10551,Rib pain
+10552,"Side pain, flank pain"
+10553,Groin pain
+10554,Facial pain
+10600,"Pain and related symptoms, generalize"
+10601,"Pain, unspecified"
+10602,"Cramps, spasms, site unspecified"
+10603,"Stiffness, site unspecified"
+10650,"Tumor or mass, site unspecified"
+10651,"Internal mass, NOS"
+10660,"Lesion, internal NOS (excludes brain"
+10700,"Bleeding, multiple or unspecified sites"
+10750,Symptoms of growth and developmental
+10751,Lack of growth
+10752,Excessive growth
+10800,"General symptoms of infants, NEC"
+10801,"Infant crying too much, fussy, fidget"
+10802,"Infant regurgitation, spitting up"
+10803,Infant feeding problem
+10850,General or unspecified nonviral infec
+10900,"Allergy, NOS"
+10950,Disorders of motor functions
+10960,"Dyslexia, NOS"
+11000,Anxiety and nervousness
+11050,Fears and phobias
+11100,Depression
+11150,Anger
+11200,Problems with identity and self-esteem
+11250,Restlessness
+11300,Behavioral disturbances
+11301,Antisocial behavior
+11302,Hostile behavior
+11303,Hysterical behavior
+11304,Temper problems
+11305,Obsessions and compulsions
+11350,Disturbances of sleep
+11351,Insomnia
+11352,Sleepiness (hypersomnia)
+11353,Nightmares
+11354,Sleepwalking
+11355,Sleep apnea
+11400,Smoking problems
+11450,Alcohol-related problems
+11500,Abnormal drug usage
+11550,Delusions or hallucinations
+11600,Psychosexual disorders
+11601,"Frigidity, loss of sex drive, lack of"
+11602,"Homosexuality, concerns with"
+11603,Impotence
+11604,Premature ejaculation
+11605,"Masturbation excessive, concerns about"
+11606,"Orgasm, problem with"
+11607,Preoccupation with sex
+11650,Oth symptoms/problems relat to psycho
+11651,Nailbiting
+11652,Thumbsucking
+12000,Abnormal involuntary movements
+12050,Convulsions
+12070,"Symptoms of head, NEC"
+12100,"Headache, pain in head"
+12150,"Memory, disturbances of"
+12200,Disturbances of sensation
+12201,Loss of feeling (anesthesia)
+12202,Increased sensation (hyperesthesia)
+12203,Abnormal sensation (paresthesia)
+12204,"Other disturbances of sense, includin"
+12250,Vertigo - dizziness
+12300,Weakness (neurologic)
+12350,"Disorders of speech, speech disturbance"
+12351,"Stuttering, stammering"
+12352,Slurring
+12400,Other symptoms referable to the nervo
+12600,Abnormal pulsations and palpitations
+12601,Increased heartbeat
+12602,Decreased heartbeat
+12603,Irregular heartbeat
+12650,Heart pain
+12700,Other symptoms of the heart
+12750,Symptoms of lymph glands (or nodes)
+12751,Swollen or enlarged glands
+12752,Sore glands
+12800,Other symptoms ref to the cardiovas/l
+12801,Poor circulation
+12802,"Pallor, paleness"
+12803,"Flushed, blushing"
+13050,Vision dysfunctions
+13051,Blindness and half vision
+13052,Diminished vision
+13053,Extraneous vision
+13054,Double vision (diplopia)
+13100,Discharge from eye
+13101,Discharge from eye--bleeding
+13102,"Discharge from eye--tearing, watering"
+13103,"Discharge from eye--pus, matter, whit"
+13150,Eye infection and inflammation
+13151,Pinkeye
+13200,Abnormal sensations of the eye
+13201,Eye pain
+13202,Eye itching
+13203,Eye burning
+13204,Eye strain
+13250,Abnormal eye movements
+13251,Abnormal retraction of eye
+13252,Cross-eyed
+13253,Pupils unequal
+13254,Deviation of eyes
+13300,Abnormal appearance of eyes
+13301,Abnormal color of eyes
+13302,Protrusion (exophthalmos) of eyes
+13303,"Cloudy, dull, hazy appearance of eyes"
+13350,Other and unspecified symptoms refera
+13351,Contact lens problems
+13352,Allergy problems referable to eye
+13353,Swelling of eyes
+13400,Symptoms of eyelids
+13401,"Infection, inflammation, swelling of"
+13402,Itching of eyelids
+13403,Mass or growth of eyelids
+13404,Abnormal movement of eyelids
+13450,Hearing dysfunctions
+13451,Diminished hearing
+13452,Heightened or acute hearing
+13453,Extraneous hearing
+13500,Discharge from ear
+13501,Bleeding of ear
+13502,Pus (purulent drainage) from ear
+13503,Swimmer's ear
+13550,"Earache, or ear infection"
+13551,"Earache, pain"
+13552,Ear infection
+13600,Plugged feeling in ear
+13650,Other and unspecified symptoms refera
+13651,Itching of ears
+13652,Growths or mass of ears
+13653,"Pulling at ears, picking at ears"
+13654,"Abnormal size or shape of ears, 'ears"
+14000,Nasal congestion
+14050,Other symptoms of nose
+14051,Nosebleed (epistaxis)
+14052,Sore in nose
+14053,Inflammation and swelling of nose
+14054,Problem with appearance of nose
+14100,Sinus problems
+14101,Sinus pain and pressure
+14102,"Sinus inflammation, infection"
+14103,Sinus congestion
+14150,Shortness of breath
+14200,Labored or difficult breathing (dyspnea)
+14250,Wheezing
+14300,"Breathing problems, NEC"
+14301,"Disorders of respiratory sound, NEC"
+14302,Rapid breathing (hyperventilation)
+14350,Sneezing
+14400,Cough
+14450,"Head cold, upper respiratory infectio"
+14500,General viral infection
+14501,Flu
+14550,Symptoms referable to throat
+14551,Throat soreness
+14552,Throat pain
+14553,Throat infection
+14554,"Throat irritation, scratch, tickle"
+14555,Throat swelling
+14556,Throat lump or mass
+14600,Symptoms referable to tonsils
+14700,Abnormalities of sputum or phlegm
+14701,Coughing up blood
+14702,Pus in sputum
+14703,Excessive sputum
+14750,Congestion in chest
+14800,Disorders of voice
+14801,"Hoarseness, loss of voice"
+14802,Hypernasality
+14850,Other symptoms referable to the respi
+14851,Lung pain
+14852,Lung infection
+15000,Symptoms of teeth and gums
+15001,Toothache
+15002,Gum pain
+15003,Bleeding gums
+15010,"Symptoms of the jaw, NOS"
+15011,"Symptoms of the jaw, swelling"
+15012,"Symptoms of the jaw, lump or mass"
+15050,Symptoms referable to lips
+15051,"Cracked, bleeding, dry lips"
+15052,Abnormal color of lips
+15053,Cold sore
+15100,Symptoms referable to mouth
+15101,"Mouth pain, burning, soreness"
+15102,Mouth bleeding
+15103,Mouth dryness
+15104,"Mouth ulcer, sore"
+15150,Symptoms referable to tongue
+15151,Tongue pain
+15152,Tongue bleeding
+15153,"Tongue inflammation, infection, swelling"
+15154,"Abnormal color, ridges, coated tongue"
+15200,Difficulty in swallowing (dysphagia)
+15250,Nausea
+15300,Vomiting
+15350,Heartburn and indigestion (dyspepsia)
+15400,Gastrointestinal infection
+15450,"Stomach and abdominal pain, cramps an"
+15451,"Abdominal pain, cramps, spasms, NOS"
+15452,"Lower abdominal pain, cramps, spasms,"
+15453,"Upper abdominal pain, cramps, spasms"
+15650,Change in abdominal size
+15651,"Abdominal distention, fullness, NOS"
+15652,Abdominal mass or tumor
+15653,"Abdominal swelling, NOS"
+15700,"Appetite, abnormal"
+15701,Excessive appetite
+15702,Decreased appetite
+15750,Difficulty eating
+15800,Gastrointestinal bleeding
+15801,Blood in stool (melena)
+15802,Vomiting blood (hematemesis)
+15850,Flatulence
+15900,Constipation
+15950,Diarrhea
+16000,Other symptoms or changes in bowel fu
+16001,Discharge in stools
+16002,Worms
+16003,"Changes in size, color, shape, or odo"
+16004,Incontinence of stool
+16050,Symptoms referable to anus-rectum
+16051,Anal-rectal pain
+16052,Anal-rectal bleeding
+16053,Anal-rectal swelling or mass
+16054,Anal-rectal itching
+16100,"Symptoms of liver, gallbladder, and b"
+16101,"Pain of liver, gallbladder, and bilia"
+16102,Jaundice
+16150,Other and unspecified symptoms refera
+16400,Abnormalities of urine
+16401,Blood in urine (hematuria)
+16402,Pus in urine
+16403,Unusual color or odor of urine
+16450,Frequency and urgency of urination
+16451,"Excessive urination, night (nocturia)"
+16500,Painful urination
+16550,Incontinence of urine (enuresis)
+16551,"Involuntary urination, can't hold uri"
+16552,Bedwetting
+16600,Other urinary dysfunctions
+16601,Retention of urine
+16602,Urinary hesitancy
+16603,Large volume of urine
+16604,Small volume of urine
+16650,Symptoms of bladder
+16651,Bladder pain
+16652,Bladder infection
+16653,Bladder mass
+16700,Symptoms of the kidneys
+16701,Kidney pain
+16702,Kidney infection
+16703,Kidney mass
+16750,"Urinary tract infection, NOS"
+16800,Other symptoms referable to urinary t
+17000,Symptoms of penis
+17001,"Pain, aching, soreness, tenderness, p"
+17002,"Infection, inflammation, swelling of"
+17003,"Lumps, bumps, growths, warts of penis"
+17050,Penile discharge
+17100,Symptoms of prostate
+17101,Swelling of prostate
+17102,Infection of prostate
+17150,Symptoms of the scrotum and testes
+17151,"Pain, aching, tenderness of the scrot"
+17152,"Swelling, inflammation of the scrotum"
+17153,"Growths, warts, lumps, bumps of the s"
+17154,"Itching, jock itch of the scrotum and"
+17200,Other symptoms of male reproductive s
+17300,Absence of menstruation (amenorrhea)
+17350,Irregularity of menstrual interval
+17351,Frequent menstrual interval
+17352,Infrequent menstrual interval
+17353,Unpredictable menstrual interval
+17400,Irregularity of menstrual flow
+17401,Excessively heavy (menorrhagia) menst
+17402,Scanty flow (oligomenorrhea) menstrua
+17403,"Abnormal material in menstrual flow,"
+17450,"Menstrual symptoms, other and unspeci"
+17451,Premenstrual symptoms
+17452,Painful menstruation (dysmenorrhea)
+17500,Menopausal symptoms
+17501,Early or late onset of menopause
+17502,Vasomotor symptoms-hot flashes
+17503,"Emotional symptoms, change of life pr"
+17550,Uterine and vaginal bleeding
+17551,Intermenstrual bleeding (metrorrhagia)
+17552,Postmenopausal bleeding
+17553,"Postcoital bleeding, female"
+17600,Vaginal discharge
+17650,Other vaginal symptoms
+17651,Vaginal pain
+17652,Vaginal infection
+17653,"Vaginal itching, burning"
+17654,Vaginal dryness
+17700,Vulvar disorders
+17701,"Vulvar itching and irritation, swelling"
+17702,"Vulvar mass, lump"
+17703,"Vulvar growth, wart, cyst, ulcer, sore"
+17750,Pelvic symptoms
+17751,Pelvic pain
+17752,Pelvic pressure or dropping sensation
+17753,"Pelvic infection, inflammation"
+17900,Problems of pregnancy
+17901,Pain during pregnancy
+17902,"Spotting, bleeding during pregnancy"
+17903,Symptoms of onset of labor
+17910,Postpartum problems
+17950,Other symptoms referable to the femal
+18000,Pain or soreness of breast
+18050,Lump or mass of breast
+18100,Other symptoms referable to breast
+18101,Bleeding or discharge from nipple of
+18102,Postpartum problems of breast
+18103,Problems with shape or size of breast
+18150,Symptoms of infertility
+18200,Hormone deficiency or problem
+18250,Symptoms of sexual dysfunction
+18300,Acne or pimples
+18350,Discoloration or abnormal pigmentation
+18400,"Infections of skin, NOS"
+18401,Infection of skin of head or neck area
+18402,"Infection of skin of arm, hand, or fi"
+18403,"Infection of skin of leg, foot, or toe"
+18450,Symptoms of skin moles
+18451,Change in size or color of skin moles
+18452,Bleeding mole
+18500,"Warts, NOS"
+18550,Other growths of skin
+18600,Skin rash
+18601,Diaper rash
+18650,Skin lesion
+18700,"Skin irritations, NEC"
+18701,Skin pain
+18702,Skin itching
+18750,Swelling of skin
+18800,Other symptoms referable to skin
+18801,Oiliness of skin
+18802,"Dryness, peeling, scaliness, roughnes"
+18803,Wrinkles of skin
+18850,Symptoms referable to nails
+18851,Infected nails
+18852,Ingrown nails
+18853,"Brittle, breaking, splitting, cracked"
+18900,Symptoms referable to hair and scalp
+18901,Too little hair
+18902,Unwanted hair
+18903,"Dryness, flaky scalp"
+18904,Itching of scalp
+18950,Navel problems
+19000,Neck symptoms
+19001,"Neck pain, ache, soreness, discomfort"
+19002,"Neck cramps, contractures, spasms"
+19003,"Limitation of movement, stiffness of"
+19004,Weakness of neck
+19005,Swelling of neck
+19006,"Lump, mass, tumor of neck"
+19050,Back symptoms
+19051,"Back pain, ache, soreness, discomfort"
+19052,"Back cramps, contractures, spasms"
+19053,"Limitation of movement, stiffness of"
+19054,Weakness of back
+19055,Swelling of back
+19056,"Lump, mass, tumor of back"
+19100,Low back symptoms
+19101,"Low back pain, ache, soreness, discom"
+19102,"Low back cramps, contractures, spasms"
+19103,"Limitation of movement, stiffness of"
+19104,Weakness of lower back
+19105,Swelling of lower back
+19106,"Lump, mass, tumor of lower back"
+19150,Hip symptoms
+19151,"Hip pain, ache, soreness, discomfort"
+19152,"Hip cramps, contractures, spasms"
+19153,"Limitation of movement, stiffness of hip"
+19154,Weakness of hip
+19155,Swelling of hip
+19156,"Lump, mass, tumor of hip"
+19200,Leg symptoms
+19201,"Leg pain, ache, soreness, discomfort"
+19202,"Leg cramps, contractures, spasms"
+19203,"Limitation of movement, stiffness of leg"
+19204,Weakness of leg
+19205,Swelling of leg
+19206,"Lump, mass, tumor of leg"
+19250,Knee symptoms
+19251,"Knee pain, ache, soreness, discomfort"
+19252,"Knee cramps, contractures, spasms"
+19253,"Limitation of movement, stiffness of"
+19254,Weakness of knee
+19255,Swelling of knee
+19256,"Lump, mass, tumor of knee"
+19300,Ankle symptoms
+19301,"Ankle pain, ache, soreness, discomfort"
+19302,"Ankle cramps, contractures, spasms"
+19303,"Limitation of movement, stiffness of"
+19304,Weakness of ankle
+19305,Swelling of ankle
+19306,"Lump, mass, tumor of ankle"
+19350,Foot and toe symptoms
+19351,"Foot and toe pain, ache, soreness, di"
+19352,"Foot and toe cramps, contractures, sp"
+19353,"Limitation of movement, stiffness of"
+19354,Weakness of foot and toe
+19355,Swelling of foot and toe
+19356,"Lump, mass, tumor of foot and toe"
+19400,Shoulder symptoms
+19401,"Shoulder pain, ache, soreness, discom"
+19402,"Shoulder cramps, contractures, spasms"
+19403,"Limitation of movement, stiffness of"
+19404,Weakness of shoulder
+19405,Swelling of shoulder
+19406,"Lump, mass, tumor of shoulder"
+19450,Arm symptoms
+19451,"Arm pain, ache, soreness, discomfort"
+19452,"Arm cramps, contractures, spasms"
+19453,"Limitation of movement, stiffness of arm"
+19454,Weakness of arm
+19455,Swelling of arm
+19456,"Lump, mass, tumor of arm"
+19500,Elbow symptoms
+19501,"Elbow pain, ache, soreness, discomfort"
+19502,"Elbow cramps, contractures, spasms"
+19503,"Limitation of movement, stiffness of"
+19504,Weakness of elbow
+19505,Swelling of elbow
+19506,"Lump, mass, tumor of elbow"
+19550,Wrist symptoms
+19551,"Wrist pain, ache, soreness, discomfort"
+19552,"Wrist cramps, contractures, spasms"
+19553,"Limitation of movement, stiffness of"
+19554,Weakness of wrist
+19555,Swelling of wrist
+19556,"Lump, mass, tumor of wrist"
+19600,Hand and finger symptoms
+19601,"Hand and finger pain, ache, soreness,"
+19602,"Hand and finger cramps, contractures,"
+19603,"Limitation of movement, stiffness of"
+19604,Weakness of hand and finger
+19605,Swelling of hand and finger
+19606,"Lump, mass, tumor of hand and finger"
+19650,Symptoms of unspecified muscles
+19651,"Unspecified muscle pain, ache, sorene"
+19652,"Unspecified muscle cramps, contractur"
+19653,"Limitation of movement, stiffness of"
+19654,Weakness of unspecified muscles
+19655,Swelling of unspecified muscles
+19656,"Lump, mass, tumor of unspecified muscles"
+19700,Symptoms of unspecified joints
+19701,"Unspecified joint pain, ache, sorenes"
+19702,"Unspecified joint cramps, contracture"
+19703,"Limitation of movement, stiffness of"
+19704,Weakness of unspecified joints
+19705,Swelling of unspecified joints
+19706,"Lump, mass, tumor of unspecified joints"
+19750,Musculoskeletal deformities
+19751,"Bowlegged, knock-kneed"
+19752,Posture problems
+19753,"Pigeon-toed, feet turn in"
+19800,Other musculoskeletal symptoms
+20050,Intestinal infectious diseases
+20100,Streptococcal infection
+20150,Viral diseases
+20151,HIV with or without associated conditions
+20200,Venereal diseases
+20250,Fungus infections (mycoses)
+20300,Parasitic diseases
+20310,"Sepsis, septicemia"
+20350,Other and unspecified infectious and
+21000,"Cancer, gastrointestinal tract"
+21050,"Cancer, respiratory tract"
+21100,"Cancer, skin and subcutaneous tissues"
+21150,"Cancer, breast"
+21200,"Cancer, female genital tract"
+21250,"Cancer, urinary and male genital tract"
+21260,Cancer of urinary tract
+21300,Other malignant neoplasms
+21350,"Hodgkin's disease, lymphomata, leukemias"
+21400,Fibroids and other uterine neoplasms
+21450,Other benign neoplasms
+21500,Neoplasm of uncertain nature
+22000,Diseases of the thyroid gland
+22010,Diabetic skin ulcer (wound check)
+22050,Diabetes mellitus
+22100,"Gout, hyperuricemia"
+22150,"Other endocrine, nutritional, and met"
+22500,Anemia
+22550,Other diseases of blood and blood-for
+23000,Organic psychoses
+23050,Functional psychoses
+23100,Neuroses
+23150,Personality and character disorders
+23200,Alcoholism
+23210,Drug dependence
+23250,Mental retardation
+23300,Other and unspecified mental disorders
+23301,Attention deficit disorder (ADD)
+23500,Multiple sclerosis
+23550,Parkinson's disease (paralysis agitans)
+23600,Epilepsy
+23650,Migraine headache
+23700,Other and unspecified diseases of the
+24000,Inflammatory diseases of the eye
+24050,Refractive error
+24100,Cataract
+24150,Glaucoma
+24200,Other diseases of the eye
+24500,Otitis media
+24550,Other diseases of the ear
+25000,Rheumatic fever and chronic rheumatic
+25050,Hypertension with involvement of targ
+25100,Hypertension
+25150,Ischemic heart disease
+25200,Other heart disease
+25250,Cerebrovascular disease
+25300,Atherosclerosis
+25350,"Phlebitis, thrombophlebitis"
+25400,Varicose veins
+25450,Hemorrhoids
+25500,Other disease of circulatory system
+26000,Upper respiratory infections except t
+26050,Tonsillitis
+26100,Bronchitis
+26200,Emphysema
+26250,Asthma
+26300,Pneumonia
+26350,Hay fever
+26400,Other respiratory diseases
+26500,"Diseases of the esophagus, stomach, a"
+26550,"Appendicitis, all types"
+26600,Hernia of abdominal cavity
+26650,Diseases of the intestine and peritoneum
+26700,"Diseases of the liver, gallbladder, a"
+26751,Dental abscess
+26752,Dental cavities
+26750,Other diseases of digestive system
+26753,Canker sore
+26754,Stomatitis
+26755,Temperomandibular joint (TMJ) pain
+27000,Cystitis
+27050,Urinary tract disease except cystitis
+27100,Diseases of the male genital organs
+27150,Fibrocystic and other diseases of breast
+27200,Pelvic inflammatory disease (PID)
+27250,"Cervicitis, vaginitis"
+27300,Other diseases of female reproductive
+27350,Diagnosed complications of pregnancy
+27360,"Other diseases of the genitourinary system, NEC"
+28000,"Carbuncle, furuncle, boil, cellulitis"
+28050,Impetigo
+28100,Seborrheic dermatitis
+28150,"Eczema and dermatitis, NOS"
+28200,Psoriasis
+28250,Other diseases of the skin
+29000,Arthritis
+29050,Nonarticular rheumatism
+29100,Other musculoskeletal or connective t
+29500,Congenital anomalies of heart and cir
+29550,Undescended testicles
+29600,Other and unspecified congenital anom
+29800,Prematurity
+29900,All other perinatal conditions
+31000,General medical examination
+31050,Well baby examination
+31300,General psychiatric or psychological
+32000,"Pregnancy, unconfirmed"
+32050,"Prenatal examination, routine"
+32150,"Postpartum examination, routine"
+32200,Breast examination
+32250,Gynecological examination
+32300,Eye examination
+32350,Heart examination
+32400,Other special examination
+33000,Sensitization test
+33050,Skin immunity test
+33100,Glucose level determination
+33140,Human immunodeficiency virus (HIV) test
+33150,Other blood test
+33151,Blood test for venereal disease
+33200,Blood pressure test
+33250,Urine test
+33300,Diagnostic endoscopies
+33350,Biopsies
+33400,"Mammography, xerography, breast therm"
+33450,Diagnostic radiology
+33500,"EKG, ECG, electrocardiogram, treadmil"
+33550,"EEG, electroencephalogram"
+33600,Hearing test
+33650,Pap smear
+33660,Nasal swab
+33700,Other and unspecified diagnostic tests
+33701,Glaucoma test
+33702,Throat culture
+33703,Heart catheterization
+33704,Other cultures
+34000,Prophylactic inoculations
+34050,Exposure to venereal disease
+34090,Exposure to human immunodeficiency vi
+34100,Exposure to other infectious diseases
+34150,Exposure to bodily fluids of another
+35000,"Family planning, NOS"
+35050,Contraceptive medication
+35100,Contraceptive device
+35150,Counseling and examinations for pregn
+35200,Abortion to be performed (at this visit)
+35250,Sterilization to be performed (at thi
+35300,Artificial insemination
+35350,Preconception Counseling and Education
+41000,Allergy medication
+41100,Injections
+41110,Noncompliance with medication therapy
+41150,"Medication, other and unspecified kinds"
+42000,Preoperative visit for specified/unsp
+42050,Postoperative visit
+44000,Physical medicine and rehabilitation
+44010,Cardiopulmonary resuscitation
+44050,Respiratory therapy
+44100,Psychotherapy
+44101,Group counseling
+44150,Radiation therapy
+44200,Acupuncture
+44250,Chemotherapy
+45000,Tube insertion
+45050,"Cauterization, all sites"
+45070,"IV therapy, infusion"
+45100,Urinary tract instrumentation and cat
+45150,Fitting glasses and contact lenses
+45180,Detoxification
+45181,Alcohol detoxification
+45182,Drug detoxification
+45200,Minor surgery
+45201,Wart removed
+45210,Major surgery
+45290,Internal prosthetic device
+45250,Kidney dialysis
+45300,"External prosthetic devices, artifici"
+45350,Corrective appliances
+45400,"Cast, splint - application, removal"
+45450,"Dressing, bandage - application, change"
+45500,"Irrigation, lavage"
+45550,"Suture - insertion, removal"
+45560,"Cosmetic injection, NOS"
+45561,Botox injection
+45562,Collagen injection
+45600,Other specific therapeutic procedures
+45650,"Transplant, NOS"
+45651,"Transplant Failure, NOS"
+45652,"Transplants, rejection"
+46000,Diet and nutritional counseling
+46040,Human immunodeficiency virus (HIV) co
+46050,"Medical counseling, NOS"
+46051,Family history of cardiovascular disease
+46052,Family history of cancer
+46053,Family history of diabetes
+46054,Family history of other disease or co
+47000,Economic problem
+47020,Problem with access to medical care
+47050,Marital problems
+47100,Parent-child problems
+47150,Other problems of family relationship
+47200,Educational problems
+47250,Occupational problems
+47300,Social adjustment problems
+47350,Legal problems
+47351,Police involvement in outpatient visi
+47400,Other social problems
+48000,"Progress visit, NOS"
+50050,Fracture/dislocation of head and face
+50100,Fracture/dislocation of spinal column
+50150,"Fracture/dislocation of trunk area, e"
+50200,Fracture/dislocation of leg
+50250,Fracture/dislocation of ankle
+50300,Fracture/dislocation of foot and toes
+50350,Fracture/dislocation of arm
+50400,Fracture/dislocation of wrist
+50450,Fracture/dislocation of hand and fingers
+50500,"Fracture, other and unspecified"
+51050,"Sprain and strain of cervical spine,"
+51100,Sprain and strain of back
+51150,Sprain and strain of knee
+51200,Sprain and strain of ankle
+51250,Sprain and strain of wrist
+51300,"Sprain or strain, other and unspecified"
+52050,Laceration/cut of head and neck area
+52100,Laceration/cut of facial area
+52150,Laceration/cut of trunk area
+52200,Laceration/cut of lower extremity
+52250,Laceration/cut of upper extremity
+52300,"Laceration/cut, site unspecified"
+53050,"Puncture wound of head, neck and faci"
+53100,Puncture wound of trunk area
+53150,Puncture wound of lower extremity
+53200,Puncture wound of upper extremity
+53250,"Puncture wound, site unspecified"
+54050,"Contusions/abrasions/bruises of head,"
+54100,Contusions/abrasions/bruises of eye
+54150,Contusions/abrasions/bruises of trunk
+54200,Contusions/abrasions/bruises of lower
+54250,Contusions/abrasions/bruises of upper
+54300,"Contusion/abrasion/bruise, site unspe"
+55050,"Injury, other and unspecified of head"
+55100,"Injury, other and unspecified, of eye"
+55150,"Injury, other and unspecified, of back"
+55200,"Injury, other and unspecified, of che"
+55250,"Injury, other and unspecified, of hip"
+55300,"Injury, other and unspecified, of leg"
+55350,"Injury, other and unspecified, of knee"
+55400,"Injury, other and unspecified, of ankle"
+55450,"Injury, other and unspecified, of foo"
+55500,"Injury, other and unspecified, of sho"
+55550,"Injury, other and unspecified, of arm"
+55600,"Injury, other and unspecified, of elbow"
+55650,"Injury, other and unspecified, of wrist"
+55700,"Injury, other and unspecified, of han"
+55750,"Injury, multiple or unspecified"
+56000,Foreign body in eye
+56050,Foreign body in nose
+56100,Foreign body in skin
+56150,Foreign body in digestive tract
+56160,Foreign body in respiratory tract
+56200,Foreign body in other and unspecified
+57050,"Burn, all degrees, to head, neck, and"
+57100,"Burn, all degrees, to trunk area"
+57150,"Burn, all degrees, to extremities"
+57200,"Burn, all degrees, to site unspecified"
+57500,"Sunburn, windburn"
+57550,Insect bite
+57600,"Animal, human bite"
+58000,Late effects of an old injury
+58050,"Motor vehicle accident, type of injur"
+58100,"Accident, NOS"
+58150,"Violence, NOS"
+58151,Child abuse or neglect
+58152,Battered spouse
+58153,Elder abuse
+58154,Gunshot wound
+58180,Intentional self-mutilation
+58200,Suicide attempt
+58201,"Overdose, intentional"
+58300,Rape
+58301,Sexual abuse
+58350,Dead on arrival (DOA)
+58360,Respiratory arrest
+58370,Cardiac arrest
+58380,Drowning
+58390,Cardiopulmonary arrest
+58400,Unconscious on arrival
+58410,State of consciousness not specified
+58420,Altered level of consciousness
+59000,Accidental poisoning
+59001,Food poisoning
+59002,"Ingestion, inhalation, or exposure to"
+59050,Adverse effect of medication
+59100,Adverse effect of drug abuse
+59150,Adverse effect of alcohol
+59200,Adverse effects of environment
+59210,Adverse effects of second hand smoke
+59220,Adverse effects of terrorism and bioter
+59250,"Adverse effects, other and unspecified"
+59300,Complications of surgical/medical proc
+61000,For results of blood glucose tests
+61050,For results of cholesterol and trigly
+61060,For results of test for human immunod
+61100,For other findings of blood tests
+62000,For results of urine tests
+63000,For cytology findings
+64000,For radiological findings
+65000,For results of EKG
+66000,For results of skin tests
+67000,For other and unspecified test results
+71000,Physical examination required for sch
+71001,Physical examination required for emp
+71002,Executive physical examination
+71003,Physical examination required for school
+71004,Physical examination for extracurricu
+71200,Driver's license examination
+71250,Insurance examination
+71300,Disability examination
+71310,Worker's Compensation examination
+71350,Premarital examination
+71351,Premarital blood test
+71370,Direct admission to hospital
+71400,Other reason for visit required by party
+89900,"Problems, complaints, NEC"
+89910,Patient unable to speak English
+89930,Patient (or spokesperson) refused care
+89970,Entry of 'none' or 'no complaint'
+89980,Inadequate data base
+89990,Illegible entry
+90000,Blank
