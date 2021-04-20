@@ -24,7 +24,7 @@ The documentation folder consists of the Reference Guides for each year's data.
 # Model Development
 
 
-<img src="https://github.com/nidhi-malhotra-18/Medi-Assess/blob/main/model.png" width="400" height="400"/>
+<img src="https://github.com/nidhi-malhotra-18/Medi-Assess/blob/main/Figures/model.png" width="400" height="400"/>
 model.py file contains the code for a LightGBM model used the predict the emergency outcomes.
 
 
@@ -34,7 +34,7 @@ We obtain the AUC-ROC score of 0.7611 using the Light GBM model. The multi-class
 0.72, Hospitalized - Class 2 is 0.67, and Discharge - Class 3 is 0.70.
 
 <p>
-  <img src="https://github.com/nidhi-malhotra-18/Medi-Assess/blob/main/LightGBM.png" width="400" height="400"/>
+  <img src="https://github.com/nidhi-malhotra-18/Medi-Assess/blob/main/Figures/LightGBM.png" width="400" height="400"/>
 </p>
 
 # Extension of the system to a home-based self-triaging system
